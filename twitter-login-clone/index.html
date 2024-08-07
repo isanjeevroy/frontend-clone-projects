@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter / Explore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="section new-cls">
+
+        <div class="container">
+
+            <!-- left content setting logo -->
+
+            
+            <div class="left">
+                <button class="left-btn" style="font-size: 35px;"><i class="fa-brands fa-twitter"></i></button>
+                <button class="left-btn"><i class="fa-sharp fa-solid fa-hashtag"></i>&nbsp; Explore</button>
+                <button class="left-btn"><i class="fa-solid fa-gear"></i>&nbsp; Settings</button>
+            </div>
+
+<!-- middle content explore etc -->
+
+            <div class="middle">
+
+                <div class="mid-part">
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass icon"></i>
+                        <input type="text" class="input" placeholder=" Search Twitter">
+                        <i class="fa-solid fa-gear icon-setting" ></i>
+                    </div>
+                    
+                    <div class="feature">
+                        <ul>
+                            <button>For you</button>
+                            <button>Trending</button>
+                            <button>News</button>
+                            <button>Sports</button>
+                            <button>Entertainment</button>
+                        </ul>
+                    </div>
+                    <div class="content">
+                        
+                        
+                    
+                    
+                       
+                    </div>
+                </div>        
+            </div>
+
+        <!-- right side login section -->
+            <div class="right">
+                <div class="box">
+                    <h1>New to Twitter?</h1>
+                    <p>Sign up now to get your own personalized timeline!</p>
+                    <button class="account"><i class="fa-brands fa-google" style="font-size:15px;"></i> Sign in with google </button>
+                    <button class="account"><i class="fa-brands fa-apple" style="font-size:15px;"></i> Sign up with Apple</button>
+                    <button class="account">Create account</button>
+                    <p>By signing up, you agree to the <a href="">Terms of Services</a> and <a href="">Privacy
+                            Policy</a>, including <a href="">Cookie Use.</a></p>
+                </div>
+                <div class="links">
+                    <a href="">Terms of service</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Cookie Policy</a>
+                    <a href="">Assecibiliaty</a>
+                    <a href="">Ads info</a>
+                    <a href="">more...</a>
+                    <p>&copy; 2023 Twitter, Inc.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="text">
+                <h1>Don't miss what's happening</h1>
+                <p style="color:white;">People on Twitter are the first to know</p>
+            </div>
+            <div class="button">
+                <button  class="btn login" id="login">Log in</button>
+                <button class="btn signup" id="signup">Sign up</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- login pop page section -->
+
+    <section class="modal" id="id01">
+        <div class="modal-content">
+            <div class="logo fa-brands fa-twitter twitter" style="margin: 20px 0;">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+            </div>
+    
+            <div class="heading">
+                <h1 style="margin-bottom: 20px; font-size: 30px;">Sign in to Twitter</h1>
+            </div>
+            <button class="account login-extra">Sign in with Google</button>
+            <button class="account login-extra">Sign in with Apple</button>
+
+            <center><p class="or">or</p></center>
+            <input type="text" class="login-input" placeholder="Phone, email, or username">
+            <button class="account login-extra">Next</button>
+            <button class="account login-extra login-extra-one ">Forgot password?</button>
+            <p style="margin-bottom: 100px;">Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+    </section>
+
+
+    <!-- login pop page section -->
+
+    <section class="modal" id="id02">
+        <div class="modal-content">
+            <div class="logo fa-brands fa-twitter twitter" style="margin: 20px 0;">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close">&times;</span>
+            </div>
+    
+            <div class="heading">
+                <h1 style="margin-bottom: 20px; font-size: 30px;">Sign in to Twitter</h1>
+            </div>
+            <button class="account login-extra">Sign in with Google</button>
+            <button class="account login-extra">Sign in with Apple</button>
+
+            <center><p class="or">or</p></center>
+            
+            <button class="account login-extra">Create account</button>
+            <center><p style="width:300px">By signing up, you agree to the <a href="">Terms of Services</a> and <a href="">Privacy
+                Policy</a>, including <a href="">Cookie Use.</a></p>
+            <p style="margin-bottom: 100px;">Have an account already? <a href="#">Log in</a></p></center>
+        </div>
+    </section>
+    
+
+    <script src="https://kit.fontawesome.com/4ed266986d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
