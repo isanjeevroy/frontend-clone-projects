@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Navigation Bar */
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+#logo img {
+  width: 70px;
+  height: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#navbar ul {
+  display: flex;
+}
+#navbar ul li {
+  list-style: none;
+}
+#navbar ul li a {
+  text-decoration: none;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  color: rgb(29, 8, 8);
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 18px;
+}
+#navbar ul li a:hover {
+  background-color: rgb(255, 255, 255);
+
+}
+
+#navbar::before {
+  content: "";
+  background-color: rgb(10, 6, 6);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+/* Section Home */
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#home h1 {
+  margin: 28px auto;
+  font-size: 2.5rem;
+  padding-top: 53px;
+}
+#home::before {
+  content: "";
+  background: url(../img/bg2.jpg) no-repeat center center/cover;
+  position: absolute;
+  height: 478px;
+  width: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+#btn {
+  background: rgb(29, 8, 8);
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 23px;
+  width: 160px;
+  height: 48px;
+  margin-top: 38px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor:pointer;
+}
+#btn:hover {
+  background: rgb(41, 16, 16);
+  color: rgb(126, 118, 118);
+
+}
+/* Services Selectiooon */
+
+.container {
+  display: flex;
+  /* position: relative; */
+  justify-content: center;
+}
+.h-primary {
+  text-align: center;
+  margin-top: 115px;
+  font-size: 3rem;
+}
+.box {
+  border: 2px solid black;
+  height: 300px;
+  width: 316px;
+  margin: 57px 45px;
+  border-radius: 50px;
+}
+.box p {
+  margin: 4px;
+  padding: 40px;
+}
+/* Section footer */
+.footer{
+    height: 70px;
+    /* width: 100%; */
+    background-color:rgb(73, 69, 69);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.footer p{
+    padding-top: 27px;
+}
+

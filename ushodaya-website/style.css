@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+.contact{
+  height: 30px;
+  background-color: rgb(28, 26, 26);
+  display: flex;
+  position: relative;
+  color:white;
+  font-family: 'Barlow', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.7px;
+}
+.left{
+  width: 120%;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+.email,.address,.call,.insta,.facebook,.twitter,.linkedin{
+  padding: 0 10px;
+}
+.blue{
+  color:rgb(156, 92, 8);
+  padding: 0 3px;
+}
+.right{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  padding-left: 30%;
+
+}
+.background {
+  height: 87vh;
+}
+
+.background::before {
+  content: '';
+  background-image: url("background2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.2;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+#logo {
+  padding: 0 32% 0 10%;
+}
+
+#logo img {
+  height: 50px;
+  width: 170px;
+  padding: 10px 0;
+}
+
+#navbar ul {
+  display: flex;
+  
+}
+
+#navbar ul li {
+  list-style: none;
+
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  color: blue;
+  font-size: 16px;
+  border-radius: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar ul li a:hover {
+  background-color: rgb(255, 255, 255);
+
+}
+
+#navbar::before {
+  content: "";
+  background-color:brown;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+
+}
+
+/* main heading The great usha sri boyina */
+.heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  z-index: 1;
+
+}
+.heading h1 {
+  height: 60px;
+  width: 100%;
+  color: blue;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 10;
+  font-size: 60px;
+  letter-spacing:-6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading h3 {
+  height: 30px;
+  color: rgb(7, 74, 151);
+  text-transform: uppercase;
+  position: relative;
+  width: 100%;
+  padding-top: 10px;
+  letter-spacing: 6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+.tagline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+
+}
+
+.animate-charcter {
+  background-image: linear-gradient(-225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: white;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.parent{
+  display: flex;
+  padding-top: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.sideimage img{
+  /* padding-top: 20px; */
+  margin-top: 20px;
+  height: 350px;
+  width: 500px;
+  border-radius: 20px;
+}
+.content{
+  padding:0 60px 0 175px;
+}
+.conditions {
+  color: rgb(0, 4, 249);
+  padding-top: 30px;
+}
+.conditions h2{
+  color:rgb(10, 10, 126);
+  padding-bottom: 8px;
+}
+.conditions ol,ul{
+  padding-left: 60px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 600;
+}
+.conditions p{
+  padding-left: 40px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 600;
+}
+.conditions h3{
+  padding-left: 170px;
+  color: rgb(10, 10, 126);
+}
+#btn {
+  margin-left: 26%;
+  width: 180px;
+  height: 48px;
+  margin-top: 38px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor:pointer;
+    background-color:#101040;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px #090921;
+}
+#btn:hover{
+  background-color:#020295;
+}
